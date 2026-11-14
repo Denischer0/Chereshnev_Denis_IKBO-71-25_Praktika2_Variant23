@@ -1,7 +1,0 @@
-.PHONY: run test
-
-run:
-	python -m src.cli --package serde --source https://crates.io --max-depth 3 --filter ""
-
-test:
-	python -m pytest
